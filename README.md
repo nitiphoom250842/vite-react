@@ -34,7 +34,7 @@
 |-----|---------| \
 |-----|-App.tsx --> ส่วนการจัดการ Router ของแต่ละหน้า
 
-***หากท่านใดไม่ชอบ TypeScript
+# หากท่านใดไม่ชอบ TypeScript\
 npm create vite@latest my-react-app -- --template react  (๋JavaScript)\
 npm create vite@latest my-react-app -- --template react-ts (สร้างโปรเจ็คด้วย TypeScript)
 
