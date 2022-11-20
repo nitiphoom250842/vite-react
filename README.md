@@ -1,8 +1,15 @@
-# Getting Started with Create React App
+# Getting Started with Create Vite+React+Tailwindcss by TypeScript App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ใน repository นี้มีการติดตั้ง
+### Vite+React
+### Tailwindcss
+### Dockerfile สำหรับการ Deploy
+## ขั้นตอนการติดตั้ง
+1. clone repository 
+2. ติดตั้ง lib ใน file package.json ใช้คำสั่ง yarn install หรือ npm install 
+3. คำสั่งในการรันโปรเจ็ค  yarn dev หรือ npm run dev
 
-## Available Scripts
+
 
 In the project directory, you can run:
 
