@@ -19,20 +19,20 @@
 |-public -fonts\
 | -images\
 |\
-|-src| -assets\
-|` ` | -pages | -content |-components\
-|` ` |` `| |-page |-content.page.tsx\
-|` ` |` `|\
-|` ` |` `| -home |-components\
-|` ` |` `| |-page |-home.page.tsx\
-|` ` |` `|\
-|` ` |` `| -login |-components\
-|` ` |` `| |-page |-login.page.tsx\
-|` ` |` `|\
-|` ` |` `| -page404 |-components\
-|` ` |` `| |-page |-page404.page.tsx\
-|` ` |` `| \
-|` ` |-App.tsx --> ส่วนการจัดการ Router ของแต่ละหน้า\
+|-src` `| -assets\
+|` ` ` `| -pages | -content |-components\
+|` `` ` |` `` `| |-page |-content.page.tsx\
+|` `` ` |` `` `|\
+|` `` ` |` `` `| -home |-components\
+|` `` ` |` `` `| |-page |-home.page.tsx\
+|` `` ` |` `` `|\
+|` `` ` |` `` `| -login |-components\
+|` `` ` |` `` `| |-page |-login.page.tsx\
+|` `` ` |` `` `|\
+|` `` ` |` `` `| -page404 |-components\
+|` `` ` |` `` `| |-page |-page404.page.tsx\
+|` `` ` |` `` `| \
+|` `` ` |-App.tsx --> ส่วนการจัดการ Router ของแต่ละหน้า\
 
 ## โครงสร้าง file
 
