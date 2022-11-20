@@ -17,7 +17,7 @@
 ## โครงสร้าง file
 
 |-public -fonts\
-| -images\
+|---------images\
 |\
 |-src | -assets\
 |-----| -pages |-content |-components\
@@ -32,7 +32,7 @@
 |-----|---------|-page404 |-components\
 |-----|---------|-----------|-page |-page404.page.tsx\
 |-----|---------| \
-|-----|-App.tsx --> ส่วนการจัดการ Router ของแต่ละหน้า\
+|-----|-App.tsx --> ส่วนการจัดการ Router ของแต่ละหน้า
 
 ## โครงสร้าง file
 
