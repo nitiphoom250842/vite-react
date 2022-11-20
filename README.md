@@ -36,7 +36,7 @@
 
 ## โครงสร้าง file
 
-[Dir 1](src)
+(src)
 
 
 ### `yarn start`
