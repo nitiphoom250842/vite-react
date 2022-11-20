@@ -36,7 +36,7 @@
 
 ## โครงสร้าง file
 
-[This is a link](src/)
+[Dir 1](src/Dir%20A)
 In the project directory, you can run:
 
 ### `yarn start`
