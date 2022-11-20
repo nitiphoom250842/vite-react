@@ -21,16 +21,16 @@
 |\
 |-src | -assets\
 |-----| -pages |-content |-components\
-|--------------------------|-page |-content.page.tsx\
+|-----|---------|----------|-page |-content.page.tsx\
 |-----|---------|\
 |-----|---------|-home |-components\
-|------------------------|-page |-home.page.tsx\
+|-----|---------|--------|-page |-home.page.tsx\
 |-----|---------|\
 |-----|---------|-login |-components\
-|-----------------------|-page |-login.page.tsx\
+|-----|---------|-------|-page |-login.page.tsx\
 |-----|---------|\
 |-----|---------|-page404 |-components\
-|---------------------------|-page |-page404.page.tsx\
+|-----|---------|-----------|-page |-page404.page.tsx\
 |-----|---------| \
 |-----|-App.tsx --> ส่วนการจัดการ Router ของแต่ละหน้า\
 
