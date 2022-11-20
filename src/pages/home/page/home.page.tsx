@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import reactLogo from "/images/react.svg";
 import viteLogo from "/images/vite.svg";
 var env = import.meta.env;
 export function PageHome() {
+  const [sum, setSum] = useState(0);
   return (
     <div className=" h-screen w-screen">
       <div className="flex flex-col justify-center items-center h-full gap-4">
@@ -26,6 +27,34 @@ export function PageHome() {
             {env.VITE_PAGE_AKA2}
           </div>
         </div>
+        <p className="text-3xl">ผลลัพธ์ {sum}</p>
+        <div className="flex justify-center items-center gap-8 text-xl w-full">
+          <button
+            className="px-4 border rounded-[8px] border-[#6c757d]"
+            onClick={() => {
+              setSum(sum + 1);
+            }}
+          >
+            +
+          </button>
+
+          <button
+            className="px-4 border rounded-[8px] border-[#6c757d]"
+            onClick={() => {
+              setSum(sum - 1);
+            }}
+          >
+            -
+          </button>
+        </div>
+        <button
+          className="p-2 border rounded-[8px] border-[#6c757d]"
+          onClick={() => {
+            setSum(0);
+          }}
+        >
+          reset
+        </button>
       </div>
     </div>
   );
